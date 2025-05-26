@@ -54,6 +54,7 @@ body{
 .input-area input[type="text"] {
   flex: 1;
   padding: 10px 17px;
+  /* padding-right: 0px; */
   font-size:1.1rem;
   border: none;
   outline: none;
@@ -208,11 +209,7 @@ body{
 }
 
 @media (max-width:361px){
-  .input-area {
-    justify-content:center;
-  }
+  .input-area input[type="text"] {
+  padding-right: 0px;  
 }
-
-
-
-
+}
